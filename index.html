@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/MobileFirst.css" />
+    <link rel="stylesheet" href="./css/lightslider.css" />
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="BootstrapFiles/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="BootstrapFiles/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- wrapper start -->
+    <div class="wrapper">
+        <!-- header start -->
+        <header>
+            <div class="container">
+                <div class="flex-content">
+                    <div class="logo-image">
+                        <img class="img-fluid img--logo" src="../ProjectOne/images/Logo.png" />
+                    </div>
+                    <div class="item-content">
+                        <div class="flex-item">
+                            <i class="fa fa-globe"></i>
+                            <div>
+                                <span>India, IND</span>
+                                <span>flat 201, Mumbai Navi</span>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div>
+                                <!--<i class="fa fa-envelope-open "></i>-->
+                                <i class="fa fa-envelope-open-o head-icons"></i>
+                            </div>
+                            <div>
+                                <span>Spport@MailUs.com</span>
+                                <span>Get a Email</span>
+                            </div>
+                        </div>
+                        <div class="flex-item">
+                            <div>
+                                <i class="fa fa-phone head-icons"></i>
+                            </div>
+                            <div>
+                                <span>Make a call</span>
+                                <span>7003 49868 838</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- nav start -->
+        <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <button type="button" class="navbar-toggler ml-3" data-toggle="collapse" data-target="#navbarcollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item current"><a class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link">ABOUT US</a></li>
+                        <li class="nav-item"><a class="nav-link">SERVICE</a></li>
+                        <li class="nav-item"><a class="nav-link">PROJECTS</a></li>
+                        <li class="nav-item"><a class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link">CONTENT</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link--req">Request For Quote</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+        <!-- banner start -->
+        <div class="banner">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../ProjectOne/images/Hotel1.jpg" alt="" width="1100" height="500">
+                        <div class="carousel-caption Sub-title">
+                            <h1>Make Your</h1>
+                            <h1>Home Exquisite.</h1>
+                            <p>In publishing and graphic design,<br /> Lorem ipsum is a placeholder text commonly used to demonstrate.</p>
+                            <button type="button" class="aboutCompany">About Company</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../ProjectOne/images/Hotel2.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption searchHotel">
+                            <div class="overlay"></div>
+                            <div class="form-row searchOvrlay">
+                                <div>
+                                    <input type="text" class="form-control serTxt col-md-6 border-0" placeholder="Search Hotel" />
+                                    <button class="ser-btn">Search</button>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../ProjectOne/images/Hotel3.jpg" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption userForm">
+                            <form action="/action_page.php" class="needs-validation formDiv p-3" novalidate>
+                                <div class="form-group userValid">
+                                    <!--<div class="userValid"></div>-->
+                                    <p class="creativeLogo">The Creative Logo</p>
+                                    <label>Username</label>
+                                    <input type="text" class="form-control" required />
+                                    <div class="valid-feedback text-left">Valid</div>
+                                    <div class="invalid-feedback text-left">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group userValid">
+                                    <label class="mt-2">Email</label>
+                                    <input type="Email" class="form-control" required />
+                                    <div class="valid-feedback text-left">Valid</div>
+                                    <div class="invalid-feedback text-left">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group userValid">
+                                    <label class="mt-2">Password</label>
+                                    <input type="password" class="form-control mb-3" required />
+                                    <div class="valid-feedback text-left">Valid</div>
+                                    <div class="invalid-feedback text-left">Please fill out this field.</div>
+                                </div>
+                                <a href="#">Create An account</a>
+                                <input type="submit" class="signUp" value="Sign Up" />
+                                <!--<button type="button" class="signUp"></button>-->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carouselIconPrev carouselIcon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carouselIconNext carouselIcon"></span>
+                </a>
+            </div>
+        </div>
+        <!-- banner end -->
+        <!-- about hotel start -->
+        <div class="container-fluid text-center pt-4">
+            <div class="conatiner">
+                <h3>About <span style="color: #d72929;">Hotel</span></h3>
+                <div class="row mt-5">
+                    <div class="col-md-6 col-xl-6 textAbout">
+                        <p>
+                            <Span class="dropcaps">L</Span>orem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <button class="aboutBtn">See More <i class="fa fa-angle-double-right text-white"></i></button>
+                    </div>
+                    <div class="col-md-6 col-xl-6">
+                        <div class="aboutHotelImg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about hotel end -->
+        <!-- hotel Gallery and price start -->
+        <div class="container-fluid p-0 m-0">
+            <div class="fullGalleryDiv mt-4">
+                <div class="container">
+                    <h3 class="text-center pt-3">Gallery</h3>
+                    <!-------------- slider start ------------->
+                    <div class="item">
+                        <ul id="content-slider" class="content-slider">
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel001.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kerala</h5>
+                                        <h6 class="card-title">Prize: 1500 - 2000 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel002.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mumbai</h5>
+                                        <h6 class="card-title">Prize: 3000 - 5000 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel003.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">North-East</h5>
+                                        <h6 class="card-title">Prize: 1000 - 1500 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel004.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kolkata</h5>
+                                        <h6 class="card-title">Prize: 1500 - 2500 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel005.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Goa</h5>
+                                        <h6 class="card-title">Prize: 1500 - 2200 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-custom" style="max-width: 360px;">
+                                    <img class="card-img-top card-img-top--custom" src="../ProjectOne/images/Travel006.jpg" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Karnataka</h5>
+                                        <h6 class="card-title">Prize: 2500 - 3000 Per Day</h6>
+                                        <input type="button" class="aboutCompany" value="Book Now" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- prev and next start -->
+                        <!--<div class="lSSlideOuter">
+                            <div class="lSSlideWrapper usingCss" style="transition-duration: 400ms; transition-timing-function: ease;">
+                                <div class="slideAction">
+                                    <a class="lSPrev"></a>
+                                    <a class="lSNext"></a>
+                                </div>
+                            </div>
+                        </div>-->
+                        <!-- prev and next end -->
+                    </div>
+                    <!-------------- slider end ------------->
+                </div>
+            </div>
+        </div>
+        <!-- hotel Gallery and price end -->
+        <!-- testimonial start -->
+        <div class="container-fluid p-0 m-0">
+            <div class="testimonial">
+                <div class="container">
+                    <h3 class="text-center mt-5">Testimonial</h3>
+        <!----------- Testimonial content start  ------------>
+        <div class="row">
+            <div class="user-testimonial">
+                <div class="testimonial-sliding">
+                    <div class="indicator">
+                        <span class="indicat-btn active"></span>
+                        <span class="indicat-btn"></span>
+                        <span class="indicat-btn"></span>
+                        <span class="indicat-btn"></span>
+                    </div>
+                    <div class="horizontali-scroll-hide">
+                        <div class="silde-row" id="slider">
+                            <div class="slide-col">
+                                <div class="testimonial-content">
+                                    <p>
+                                        Akash dutta is a placeholder text commonly used to demonstrate
+                                        the visual form of a document or a typeface without relying on meaningful content
+                                    </p>
+                                </div>
+                                <div class="testimonial-img">
+                                    <img src="./images/Person.jpg" alt="person" />
+                                </div>
+                            </div>
+        <!--------- Second Col --------->
+        <div class="slide-col">
+            <div class="testimonial-content">
+                <p>
+                    Akash dutta is a placeholder text commonly used to demonstrate
+                    the visual form of a document or a typeface without relying on meaningful content
+                </p>
+            </div>
+            <div class="testimonial-img">
+                <img src="./images/Person.jpg" alt="person" />
+            </div>
+        </div>
+        <!--------- Third Col --------->
+        <div class="slide-col">
+            <div class="testimonial-content">
+                <p>
+                    Akash dutta is a placeholder text commonly used to demonstrate
+                    the visual form of a document or a typeface without relying on meaningful content
+                </p>
+            </div>
+            <div class="testimonial-img">
+                <img src="./images/Person.jpg" alt="person" />
+            </div>
+        </div>
+        <!--------- Fourth Col --------->
+        <div class="slide-col">
+                                            <div class="testimonial-content">
+                                                <p>
+                                                    Akash dutta is a placeholder text commonly used to demonstrate
+                                                    the visual form of a document or a typeface without relying on meaningful content
+                                                </p>
+                                            </div>
+                                            <div class="testimonial-img">
+                                                <img src="./images/Person.jpg" alt="person" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial end -->
+        <!-- footer start -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="foo-content">
+                            <ul class="foo-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About US</a></li>
+                            </ul>
+                            <ul class="foo-nav-one">
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Projects</a></li>
+                            </ul>
+                            <ul class="foo-nav-two">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <ul class="footer-icons">
+                            <li><a href="#"><i class="fa fa-facebook social-icons"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus social-icons"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram social-icons"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="playstoreImg">
+                            <img src="../ProjectOne/images/googlePlaystore.png" alt="playstore" />
+                        </div>
+                        <div class="contact-us">
+                            <ul>
+                                <li><a href="#">Email : saharana.offical8@gmail.com</a></li>
+                                <li class="pt-2"><a href="#">Contact : 9051016995</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer d-flex justify-content-end p-2">
+                <!--<span class="text-white">@copy right</span>-->
+                <span class="text-white">Template by Rana Saha</span>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+    <!-- wrapper end -->
+    <!-- bootstrap js link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!------------- script external link -------------->
+    <script src="./Js/lightslider.js"></script>
+    <script src="Js/script.js"></script>
+    <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+</body>
+</html>

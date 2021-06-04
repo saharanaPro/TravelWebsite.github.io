@@ -1,0 +1,534 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*html,body {
+    max-width: 100%;
+}*/
+.wrapper {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+header {
+    width: 100%;
+    padding-bottom: 8px;
+    background-color: aliceblue;
+}
+@font-face {
+    font-family: Redressed-Regular;
+    src: url(../fonts/Redressed/Redressed-Regular.ttf);
+}
+.logo-image {
+    max-width: 95%;
+    height: 49px !important;
+    margin-top: 5px !important;
+}
+
+.img--logo {
+    max-width: 95%;
+    height: 49px !important;
+    margin-top: 2px !important;
+}
+
+.flex-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.item-content {
+    max-width: 100%;
+    display: flex;
+    position: relative;
+}
+.flex-item {
+ padding: 0 20px;
+ border-right: 1px solid #ccc;
+ margin-top: 10px;
+/* float: right;*/
+display: flex;
+flex-direction: row;
+}
+.flex-item span {
+    display: block;
+}
+.flex-item span:first-child {
+    color: black;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.flex-item span:last-child {
+    color: #ccc;
+   font-size: 12px;
+}
+.fa-globe {
+    display: inline !important;
+    font-size: 34px !important;
+    /* vertical-align: middle; */
+    position: absolute;
+    left: -16px;
+    top: 15px;
+}
+.head-icons {
+    display: inline !important;
+    font-size: 32px !important;
+    line-height: 1.4 !important;
+    margin: 0 10px;
+}
+/* nav css start */
+.navbar-nav .nav-item {
+    padding: 0 20px;
+}
+.navbar-nav li.current a.nav-link {
+    background: white;
+    color: black !important;
+    margin-top: 0;
+    height: 100%;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+    cursor: pointer;
+    font-size: 1vw;
+}
+nav.navbar {
+    width: 100%;
+    padding: 1px !important;
+}
+.navbar-nav .nav-item .nav-link--req {
+    background-color: #d72929 !important;
+    /* padding-left: 20px  !important; */
+}
+.navbar-nav .nav-item .nav-link--req::after {
+    content: "\f178";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: 100;
+    margin-left: 5px;
+    padding: 0 10px;
+}
+/* nav css end */
+
+/* banner start */
+.banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
+.Sub-title {
+    padding-top: 120px  !important;
+    position: absolute  !important;
+    top: 50px;
+    left: 0;
+}
+.searchHotel {
+    position: absolute  !important;
+    top: 50px;
+    left: 0;
+}
+.Sub-title h1{
+    text-align: left;
+    list-style: 1.4;
+} 
+.Sub-title p {
+    text-align: left;
+}
+.Sub-title h3:first-child {
+    margin-top: 100px;
+}
+.aboutCompany {
+    border: none;
+    background-color: transparent;
+    background-color: #d72929; 
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    float: left;
+}
+.aboutCompany::after {
+    content: "\f178";
+    font-family: "FontAwesome";
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 100;
+    margin-left: 8px;
+}
+
+.carouselIcon {
+    display: block;
+    width: 58px;
+    height: 30px;
+    background-color: rgb(250, 253, 255);
+}
+
+.carouselIcon:hover {
+    background: rgba(250, 253, 255, 0.8) !important;
+}
+
+.carouselIconPrev::before {
+    content: "\f177";
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 0px;
+    color: black;
+    position: relative;
+    top: -1px
+}
+
+.carouselIconNext::before {
+    content: "\f178";
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 0px;
+    color: black;
+    position: relative;
+    top: -1px
+}
+.ser-btn {
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #e03c3c;
+}
+.serTxt {
+    border-radius: 0% !important;
+    padding: 30px 20px !important;
+}
+.serTxt:active, .serTxt:focus{
+    outline: none !important;
+    box-shadow: none  !important;
+}
+::-webkit-input-placeholder {
+   font-size: 14px;
+}
+.userForm {
+    padding-top: 20px  !important;
+    position: absolute  !important;
+    top: 50px;
+    left: 0;
+}
+.formDiv {
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+    float: right;
+    position: relative;
+}
+.userValid {
+/*    padding: 20px;*/
+}
+.userVal a {
+    margin-top: 5px;
+} 
+.creativeLogo {
+    color: black;
+    text-align: center;
+    font-family: Redressed-Regular;
+    font-size: 20px;
+}
+.creativeLogo::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 40px;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+.creativeLogo::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 37px;
+    width: 40px;
+    height: 5px;
+    border-bottom: 2px solid black;
+}
+.formDiv .userValid label {
+    display: block;
+    text-align: left;
+    color: black;
+}
+.signUp {
+    border: none;
+    background-color: transparent;
+    background-color: #e03c3c;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+}
+.carousel-indicators > li {
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+/* banner end */
+
+/************ banner two overlay start **************/
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+/************ banner two overlay end **************/
+/* about start css */
+.aboutHotelImg {
+    width: 100%;
+    height: 359px;
+    background: url('../images/aboutHotel.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+.textAbout p{
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.aboutBtn {
+    border: none;
+    background-color: transparent;
+    background-color: #e03c3c;
+    color: white;
+    width: 100px;
+    font-size: 14px;
+    padding: 8px 0;
+    float: left;
+}
+.dropcaps {
+    position: relative;
+    font-size: 34px;
+    padding: 0.3rem 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.fullGalleryDiv {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: rgb(209, 209, 209);
+}
+/* ***************** //// testimonial css start  /// ****************** */
+.testimonial {
+    width: 100%;
+}
+.user-testimonial {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.testimonial-sliding {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+.horizontali-scroll-hide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.silde-row {
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+.slide-col {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.testimonial-content {
+    background: #2a3b59;
+    width: 520px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+.testimonial-content > p {
+    color: white;
+    line-height: 30px;
+}
+.testimonial-img {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+}
+.testimonial-img > img {
+    max-width: 400px;
+    height: 300px;
+}
+.indicator {
+    position: absolute;
+    z-index: 10000;
+    left: 45%;
+    transform: translateY(-50%);
+    bottom: 0;
+    padding-bottom: 20px;
+}
+.indicat-btn {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(216, 73, 54);
+    cursor: pointer !important;
+}
+.active {
+    width: 28px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+/* ***************** ////// testimonial css end ////// ****************** */
+
+/* footer css start */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 10, 10);
+}
+.foo-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foo-nav li, .foo-nav-one li, .foo-nav-two li {
+    display: table;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.foo-nav li a, .foo-nav-one li a, .foo-nav-two li a {
+    color: white;
+}
+.foo-nav li a:hover {text-decoration: none;}
+.foo-nav-one li a:hover {text-decoration: none;}
+.foo-nav-two li a:hover {text-decoration: none;} 
+
+.footer-icons {
+    display: table;
+}
+
+.footer-icons li {
+    display: inline-block;
+}
+
+.footer-icons li a .social-icons {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.playstoreImg {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.playstoreImg img {
+    height: 80px;
+    margin-top: 20px;
+}
+.contact-us {
+    width: 100%;
+    height: auto;
+}
+.contact-us ul {
+    display: table;
+    margin: 20px auto;
+}
+.contact-us ul li a {
+    color: white;
+}
+.contact-us ul li a:hover {
+    text-decoration: none;
+}
+/* footer css start */
+
+  /* /////////////////   css slider start        ////////////// */
+/* start */
+  ul{
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+}
+.demo .item{
+    margin-bottom: 60px;
+}
+/* .content-slider li{
+    text-align: center;
+    color: #FFF;
+} */
+.content-slider h3 {
+    margin: 0;
+    padding: 10px;
+}
+.demo{
+    width: 800px;
+}
+/* indicator hide */
+.lSPager {
+    display: none;
+}
+/* end  */
+.card-title {
+    color: black;
+}
+.card-img-top--custom {
+    height: 200px !important;
+} 
+.card-custom {
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2) !important;
+}
+
+/* slide action start */
+.slideAction {
+    display: block;
+    position: absolute;
+}
+
+/* slide action end */
+ /* /////////////////   css slider end        ////////////// */
+
+/******** sub footer css start ********/
+.sub-footer {
+    width: 100%;
+    background: #141212;
+    margin-top: 20px;
+}
+.sub-footer > span {
+    font-size: 12px;
+}
+
+/******** sub footer css end ********/

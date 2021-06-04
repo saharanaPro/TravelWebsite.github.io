@@ -1,0 +1,47 @@
+/* css document */
+@media screen and (max-width: 990px) {
+    header {
+        height: 45px !important;
+    }
+}
+@media screen and (max-width: 762px) {
+    .navbar {
+        padding: 4px 0 !important;
+    }
+    .navbar-toggler {
+        padding: 1px 10px !important;
+    }
+    .navbar-toggler-icon {
+        font-size: 13px !important;
+        position: relative !important;
+        top: -2px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .flex-item span:first-child {
+        font-size: 1.40vmax;
+    }
+    .flex-item span:last-child {
+        font-size: 2.80vmin;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .flex-item span:first-child {
+        font-size: 2vmin;
+    }
+    .flex-item span:last-child {    
+        font-size: 1.80vmin;
+    }
+    .logo-image {
+        max-width: 6vmax !important;
+        height: auto !important;
+    }
+    
+    .img--logo {
+        max-width: 6vmax !important;
+        height: auto !important;
+        margin: 5px auto !important;
+    }
+}
